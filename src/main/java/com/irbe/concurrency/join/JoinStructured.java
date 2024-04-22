@@ -1,4 +1,4 @@
-package com.irbe;
+package com.irbe.concurrency.join;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

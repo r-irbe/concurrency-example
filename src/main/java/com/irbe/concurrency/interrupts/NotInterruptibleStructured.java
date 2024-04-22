@@ -1,4 +1,4 @@
-package com.irbe;
+package com.irbe.concurrency.interrupts;
 
 import java.util.concurrent.StructuredTaskScope;
 import java.util.concurrent.ThreadFactory;
