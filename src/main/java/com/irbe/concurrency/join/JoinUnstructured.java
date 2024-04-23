@@ -43,6 +43,7 @@ public final class JoinUnstructured {
             t3.setUncaughtExceptionHandler(exHandler);
             t2.join();
             t3.join();
+            throw new InterruptedException();
         } catch (final InterruptedException e) {
             out.println("T1 interrupted!");
         }
